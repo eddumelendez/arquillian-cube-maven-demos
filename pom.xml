@@ -27,4 +27,9 @@
 		</dependencies>
 	</dependencyManagement>
 
+	<modules>
+		<module>arquillian-cube-restassured</module>
+		<module>arquillian-polyglot</module>
+	</modules>
+
 </project>
