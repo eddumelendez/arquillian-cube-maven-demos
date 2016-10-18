@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+		 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		 xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<artifactId>arquillian-maven-demos</artifactId>
+		<groupId>io.eddumelendez.arquillian</groupId>
+		<version>1.0-SNAPSHOT</version>
+	</parent>
+
+	<groupId>io.eddumelendez.arquillian</groupId>
+	<artifactId>arquillian-cube-containerless</artifactId>
+	<version>1.0-SNAPSHOT</version>
+
+	<dependencies>
+		<dependency>
+			<groupId>org.arquillian.universe</groupId>
+			<artifactId>arquillian-cube-containerless</artifactId>
+			<scope>test</scope>
+			<type>pom</type>
+		</dependency>
+		<dependency>
+			<groupId>org.arquillian.universe</groupId>
+			<artifactId>arquillian-cube-docker</artifactId>
+			<scope>test</scope>
+			<type>pom</type>
+		</dependency>
+		<dependency>
+			<groupId>org.jboss.arquillian.junit</groupId>
+			<artifactId>arquillian-junit-container</artifactId>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>4.12</version>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>io.rest-assured</groupId>
+			<artifactId>rest-assured</artifactId>
+			<version>3.0.1</version>
+			<scope>test</scope>
+		</dependency>
+	</dependencies>
+
+	<build>
+		<testResources>
+			<testResource>
+				<directory>src/test/resources</directory>
+				<filtering>true</filtering>
+			</testResource>
+		</testResources>
+	</build>
+
+</project>
