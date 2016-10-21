@@ -30,6 +30,7 @@
 	<modules>
 		<module>arquillian-cube-restassured</module>
 		<module>arquillian-cube-containerless</module>
+		<module>arquillian-cube-drone</module>
 	</modules>
 
 </project>
