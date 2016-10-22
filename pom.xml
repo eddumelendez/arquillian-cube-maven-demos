@@ -32,6 +32,7 @@
 		<module>arquillian-cube-containerless</module>
 		<module>arquillian-cube-drone</module>
 		<module>arquillian-cube-graphene</module>
+		<module>arquillian-cube-containerobject</module>
 	</modules>
 
 </project>
